@@ -1,4 +1,4 @@
-# kanvas-Api
+# M5 - Projeto Final Kanvas
 
 ## Preparando ambiente para execução dos testes
 
@@ -72,3 +72,7 @@ pytest --testdox -vvs caminho/para/o/arquivo/de/teste::NomeDaClasse::nome_do_met
 ```
 
 **Exemplo**: executar somente "test_user_login_without_required_fields".
+
+```shell
+pytest --testdox -vvs tests/accounts/tests_views.py::TestLoginAccountView::test_login_without_required_fields
+```
